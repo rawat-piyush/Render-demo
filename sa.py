@@ -367,6 +367,8 @@ with open(emotion_heatmap_path, "rb") as img_file:
 # Create Dash app
 app = dash.Dash(__name__)
 
+server = app.server
+
 state_options = [{'label': state, 'value': state} for state in df1['states'].unique()]
 
 state_emotions_percentage = state_emotions_percentage.reset_index()
