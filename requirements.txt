@@ -1,0 +1,14 @@
+﻿dash==2.6.0
+pandas 
+base64
+geopandas
+random
+datetime
+plotly.express
+re
+wordcloud
+nltk
+PIL
+collections
+matplotlib.pyplot
+nrclex
