@@ -1,4 +1,5 @@
 ﻿dash==2.6.0
+gunicorn
 pandas 
 geopandas
 plotly
