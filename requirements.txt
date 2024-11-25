@@ -1,14 +1,9 @@
 ﻿dash==2.6.0
 pandas 
-base64
 geopandas
-random
-datetime
-plotly.express
-re
+plotly
 wordcloud
 nltk
-PIL
-collections
-matplotlib.pyplot
+Pillow
+matplotlib
 nrclex
