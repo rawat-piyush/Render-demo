@@ -22,6 +22,7 @@ from collections import Counter
 import matplotlib.pyplot as plt 
 import base64
 from nrclex import NRCLex
+import os
 
 df = pd.read_csv('Twitter_Data.csv')
 df1 = df[60000: 80000]
@@ -577,4 +578,4 @@ def update_emotion_bar_chart(selected_state):
     return fig
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=True, host='0.0.0.0', port=10000)
